@@ -4,16 +4,12 @@ body{
     background-color:black;
 }
 
-
 .header{
    
     background-color:slategray;
     color:black;
     display: flex;
     justify-content: flex-end;
-
-    
-
 }
 
 .hero{
@@ -23,10 +19,10 @@ body{
     display: flex;
     justify-content: flex-start;
     background-image:url(../images/Mountains.jpg);
-    
-
-
+    background-size: cover;
 }
+
+
 
 
 
