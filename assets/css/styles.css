@@ -1,35 +1,68 @@
-
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
 
 body{
-    background-image:url(../images/black.jpg);
-    background-size: cover;
-}
-
-.header{
-   
-    background-color:slategray;
-    color:black;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.hero{
-    height: 200px;
-    border-bottom: 2px solid black;
-    padding: 10px;
-    display: flex;
-    justify-content: flex-start;
-    background-image:url(../images/Mountains.jpg);
-    background-size: cover;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 1.3125rem;
+    line-height: 1.6;
 }
 
 
+h1,
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    line-height: 1;
+    margin-bottom: 1em;
+} 
 
 
 
 
-
-
-
+.about-me{
+    background-color:#824936;
+    color:#f3eed9;
     
+}
 
+
+.contact-me{
+    background-color:#222c2a;
+    color:#f3eed9;
+    
+}
+
+.my-work{
+    background-color:#fff;
+    color:#222c2a;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  }
