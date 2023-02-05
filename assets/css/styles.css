@@ -1,68 +1,211 @@
-*,
-*::before,
-*::after{
-    box-sizing: border-box;
-}
-
-body{
-    font-family: sans-serif;
-    font-weight: 400;
-    font-size: 1.3125rem;
-    line-height: 1.6;
-}
-
-
-h1,
-h2{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 900;
-    line-height: 1;
-    margin-bottom: 1em;
-} 
-
-
-
-
-.about-me{
-    background-color:#824936;
-    color:#f3eed9;
-    
-}
-
-
-.contact-me{
-    background-color:#222c2a;
-    color:#f3eed9;
-    
-}
-
-.my-work{
-    background-color:#fff;
-    color:#222c2a;
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  @media only screen and (max-width: 768px) {
-    body {
-      font-size: 14px;
-    }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
   }
+  
+  header {
+    background-image: url('/assets/images/driftwood.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+  }
+
+  header h1 {
+    margin: 0;
+    color: white;
+    font-size: 36px;
+    text-shadow: 2px 2px #333;
+  }
+ 
+  .profile-picture {
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+    margin-right: 20px;
+  }
+
+   nav {
+    margin-left: auto;
+  }
+  
+  
+  nav ul {
+    background-color: #333;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #fff;
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+  }
+  
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  
+  section p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .portfolio {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .portfolio ul {
+    width: 30%;
+    height: 300px;
+    background-color: chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .portfolio li {
+    list-style-type: none;
+  }
+  .portfolio h3 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  
+  form label,
+  form input,
+  form textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;}
+
+    .contact {
+      background-color: darkolivegreen;
+      padding: 20px;
+      border: 1px solid #333;
+      background-image: url(bg-image.jpg);
+      background-size: cover;
+      background-position: center;
+      text-align: center;
+    }
+    
+    @media (min-width: 768px) {
+      .contact {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px;
+      }
+    }
+    
+    .contact h2 {
+      margin-bottom: 20px;
+      font-family: "Custom Font", sans-serif;
+      font-size: 36px;
+    }
+    
+    .contact li {
+      margin-bottom: 10px;
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+      animation: slideIn 1s ease-out;
+    }
+    
+    @keyframes slideIn {
+      0% {
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+    
+    .contact li:hover {
+      background-color: #333;
+      color: #f7f7f7;
+      transform: scale(1.1);
+    }
+    
+    .contact li a {
+      color: #333;
+    }
+    
+    .contact li a:hover {
+      color: #f7f7f7;
+    }
+    
+    .contact li:before {
+      content: "\f095";
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      margin-right: 10px;
+      font-size: 24px;
+    }
+    
+     .contact li:first-child:before {
+      content: "\f095";
+    }
+    
+    .contact li:nth-child(2):before {
+      content: "\f0e0";
+    }
+    
+    .contact li:last-child:before {
+      content: "\f041";
+    }
+     
+    
+    
+    footer {
+    background-color: lightgray;
+    color: gray;
+    text-align: center;
+    padding: 20px;
+    }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
