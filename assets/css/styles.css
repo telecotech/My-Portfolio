@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: antiquewhite;
   }
   
   header {
@@ -72,9 +73,43 @@ body {
     font-size: 16px;
     line-height: 1.5;
   }
+
+  .experience {
+    background-color: #f2f2f2;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .experience h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    
+  }
+  
+  .experience h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .experience p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .experience a:hover img {
+    transform: scale(1.2);
+    transition: all 0.2s ease-in-out;
+  }
+  
   .portfolio {
     display: flex;
     justify-content: space-between;
+    text-decoration: none;
   }
   
   .portfolio ul {
@@ -85,6 +120,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    list-style: none;
   }
   
   .portfolio h2,
@@ -98,6 +134,14 @@ body {
     max-width: 100%;
     max-height: 100%;
   }
+  .portfolio a img {
+    transition: transform 0.2s;
+  }
+  
+  .portfolio a:hover img {
+    transform: scale(1.25);
+  }
+  
   
   
   
