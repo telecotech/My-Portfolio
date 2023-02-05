@@ -73,7 +73,16 @@ body {
     font-size: 16px;
     line-height: 1.5;
   }
-
+  
+  .about{
+    background-color: seashell;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    text-decoration: none;
+  }
+ 
   .experience {
     background-color: slategray;
     padding: 30px;
@@ -157,7 +166,6 @@ body {
     .contact {
       background-color: darkolivegreen;
       padding: 20px;
-      border: 1px solid #333;
       background-size: cover;
       background-position: center;
       text-align: center;
