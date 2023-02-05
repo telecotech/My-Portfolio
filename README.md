@@ -9,5 +9,5 @@ This website is designed to showcase my progression through the Georgia Tech Boo
 
 
 
-
+![Alt text](/assets/images/project%20screenshot.jpg "screenshot from my webpage")
  
